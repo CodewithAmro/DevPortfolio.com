@@ -1,0 +1,24 @@
+[1mdiff --git a/try.html b/try.html[m
+[1mindex aec0681..fdeedcd 100644[m
+[1m--- a/try.html[m
+[1m+++ b/try.html[m
+[36m@@ -12,6 +12,7 @@[m
+     </style>[m
+ </head>[m
+ <body>[m
+[31m-    <p>hello assem</p>[m
+[32m+[m[32m    <p>llo assem</p>[m
+[32m+[m[32m    <h1>Software Enginner</h1>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/trystyle.css b/trystyle.css[m
+[1mindex 2db0fdd..e132957 100644[m
+[1m--- a/trystyle.css[m
+[1m+++ b/trystyle.css[m
+[36m@@ -1,3 +1,4 @@[m
+ body{[m
+     background-color: aqua;[m
+[32m+[m[32m    align-items: center;[m
+ }[m
+\ No newline at end of file[m
