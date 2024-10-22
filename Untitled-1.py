@@ -1,27 +1,23 @@
-class sorted_stack:
+class sort_stack:
     def __init__(self):
-        self.stack1=[]
-
-        self.temp=0
-
-    def sort_the_stack(self,Mystack):
-
-        last_val=Mystack.pop()
-
-        self.temp=last_val
-
-        for variables in Mystack:
-
-            if variables<=self.temp:
-                self.stack1.append(variables)
-                
-            else:
-                self.temp=variables
-      
-            
-            
+        self.stack=[]
+       
+    def sort_the_stack(self,mystack):
+        #we take the number at the head of the stack to compare
+        temp=mystack.pop()
         
-s=sorted_stack()
-mystc=[1,4,2,6,2,8,3,6,1]
-answer=s.sort_the_stack(mystc)
+        for num in mystack:
+            
+            if num<temp:
+                self.stack.append(num)
+            else:
+                temp=num
+                self.stack.append(temp)
+                
+
+                
+        return self.stack
+s=sort_stack()
+mystack=[11,23,40,1,4,5,2,6,8,12]
+answer=s.sort_the_stack(mystack)
 print(answer)
